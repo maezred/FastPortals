@@ -1,0 +1,15 @@
+# Basic config.
+worlds:
+  world:
+    connection:
+      radius: 128
+      multiplier: .125
+      world: world_nether
+  world_nether:
+    connection:
+      radius: 128
+      multiplier: 8
+      world: world
+
+# Enable/Disable the plugin entirely.
+enabled: true
